@@ -19,6 +19,9 @@ Every part required to assemble Sesame is cataloged here. Pick the wiring strate
 | Heat-shrink assortment | 1 | Insulate OLED, switch, and battery joints | [Amazon](https://www.amazon.com/s?k=heat+shrink+tubing+kit) |
 | Small zip ties | 1 pack | Bundling wires inside the frame | [Amazon](https://www.amazon.com/s?k=mini+zip+ties) |
 
+> [!CAUTION]
+> You have to specifically buy the "180 degree" MG90S Otherwise your build will not work
+
 ## Wiring Option A – S2 Mini / Hand-Wired Harness
 
 | Item | Qty | Notes | Source |
