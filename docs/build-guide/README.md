@@ -1,6 +1,6 @@
 # Build Guide
 
-Complete build guide for the Sesame Robot.
+Complete build guide for the Sesame Robot Project.
 
 Use this walkthrough alongside the BOM, wiring guide, and printing notes to stay organized. The table below previews each phase, its goal, and the doc to reference if you get stuck.
 
