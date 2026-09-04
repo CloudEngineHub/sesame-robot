@@ -1,6 +1,6 @@
 # Build Guide
 
-Complete build guide for the Sesame Robot.
+Complete build guide for the Sesame Robot Project.
 
 Use this walkthrough alongside the BOM, wiring guide, and printing notes to stay organized. The table below previews each phase, its goal, and the doc to reference if you get stuck.
 
@@ -178,8 +178,7 @@ Before dropping hardware in, trim or bundle any stray wires so nothing can flop 
 
 1. Inspect the harness to ensure no bare conductors can short during testing. Add heat-shrink or tape where needed.
 2. Connect a reliable USB-C cable and flash `sesame-motor-tester.ino` from the [debugging-firmware](../../firmware/debugging-firmware/) folder using Arduino IDE. If you have never flashed an ESP32 before, pause here and follow a quick tutorial so you are comfortable resetting/entering boot mode.
-3. Open the serial monitor. You should see the tester menu.
-4. Command all motors to 90°. Starting from Motor 0, plug its connector into the appropriate header. The servo should immediately whirr into the 90° position. Repeat for Motors 1–7. Skip to Step 4 below.
+3. Open [Motor testing guide.](../../hardware/Motor-testing/README.md)
 
 **For Distro Board V3/V2 (Build Kits):**
 If you are using a V3 or V2 Board from a Build Kit, it comes **pre-flashed** with the Sesame firmware! There is no need to plug into a computer and use Arduino IDE to flash firmware.
