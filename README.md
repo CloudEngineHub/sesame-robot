@@ -56,7 +56,7 @@ Follow these steps to build your own Sesame Robot:
 ### 1. Gather Parts 
 Check the **[Bill of Materials (BOM)](hardware/bom/README.md)** for a complete list of required electronics and hardware.
 *   Microcontroller: Lolin S2 Mini (recommended for DIY builds), Sesame Distro Board V3 (Current, pre-flashed, supports Bambu Lab battery), V2 (legacy, USB-only), or ESP32-DevKitC-32E with Distro Board V1 (legacy)
-*   Actuators: 8x MG90 Servos
+*   Actuators: 8x 180 Degree MG90 Servos
 *   Power: 5V 3A source (USB-C PD for S2 Mini and V2 Distro Board, or battery + buck converter; see BOM for the Bambu Lab 14500 7.4V 800mAh Li-ion Battery option)
 
 ### 2. Print Parts 
@@ -98,6 +98,16 @@ The Sesame Simulator, created by Jay Li, is a Rust-based 3D simulation environme
 *   **URDF Integration:** Accurate modeling of Sesame's physical properties.
 
 [**> Go to Sesame Simulator**](https://one-for-all.github.io/sesame-robot-sim/)
+
+### Sesame ML Tools
+ML tools Created by Luke Hollis for Sesame, world model for online planning, policy eval, and RL finetuning.
+*   **Robot description:** Self-contained printable STLs, CAD-derived MJCF, validated URDF, camera/IMU/foot frames, primitive contact geometry, masses and actuator limits
+*   **Tasks:** Stand, challenged recovery, commanded locomotion, and goal/obstacle navigation
+*   **Policy evaluation:** Multi-seed JSON/CSV reports, strict task success, domain parameters, tracking/fall/collision/energy/latency metrics, MP4/GIF and onboard/split views
+
+<img width="25%" alt="sesame-ml" src="https://github.com/user-attachments/assets/2b55edea-d5a0-45fc-92ef-570c75713114" />
+
+[**> Go to Sesame ML Repo**](https://github.com/lukehollis/sesame-ml)
 
 ### Sesame Companion App
 The Sesame Companion App is a Python-based application that enables advanced control and interaction with your robot over your local network. It leverages the new JSON API and network mode features to provide:
